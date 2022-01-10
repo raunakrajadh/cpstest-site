@@ -2,6 +2,7 @@ let button = document.getElementById('button')
 let scoreHTML = document.getElementById('score')
 let timeHTML = document.getElementById('time')
 let cpsHTML = document.getElementById('cps')
+let reloadButton = document.getElementById('reload')
 
 let scoreBoard = 1;
 let timeBoard = 1;
@@ -41,4 +42,9 @@ button.addEventListener('click', () => {
         scoreBoard++
     }
 });
+
+reloadButton.addEventListener('click', () => {
+
+    window.location.reload()
+})
 
