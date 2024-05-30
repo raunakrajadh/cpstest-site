@@ -11,9 +11,9 @@ let i = 1;
 
 function setTime(){
 
-    timeHTML.innerText = "Time: " + 1
+    timeHTML.innerText = "Time: 5/" + 1
     setInterval(() => {
-        timeHTML.innerText = "Time: " + displayTimeBoard
+        timeHTML.innerText = "Time: 5/" + displayTimeBoard
         
         if(displayTimeBoard < 5){
             displayTimeBoard++
